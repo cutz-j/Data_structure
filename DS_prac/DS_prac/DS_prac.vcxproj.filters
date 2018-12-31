@@ -18,5 +18,8 @@
     <ClCompile Include="ds_ch1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="ds_ch2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
