@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
+int sub_3_c(void) {
 	int num;
 	num = Fibonacci(7);
 	printf("%d", num);
