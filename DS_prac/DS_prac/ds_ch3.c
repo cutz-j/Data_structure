@@ -2,7 +2,7 @@
 #include "ArrayList.h"
 #include "NameCard.h"
 
-int main(void) {
+int sub_ch3_c(void) {
 	//q3_1_1();
 	q3_2_1();
 	return 0;
