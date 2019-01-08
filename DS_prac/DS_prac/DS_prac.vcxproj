@@ -19,17 +19,19 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ArrayList.c" />
+    <ClCompile Include="DLinkedList.c" />
     <ClCompile Include="ds_ch1.c" />
     <ClCompile Include="ds_ch2.c" />
     <ClCompile Include="ds_ch3.c" />
     <ClCompile Include="ds_ch4.c" />
-    <ClCompile Include="LinkedList.c" />
     <ClCompile Include="NameCard.c" />
+    <ClCompile Include="Point.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayList.h" />
+    <ClInclude Include="DLinkedList.h" />
     <ClInclude Include="NameCard.h" />
+    <ClInclude Include="Point.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

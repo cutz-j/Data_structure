@@ -21,19 +21,19 @@
     <ClCompile Include="ds_ch2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ArrayList.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="ds_ch3.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="NameCard.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="LinkedList.c">
+    <ClCompile Include="ds_ch4.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ds_ch4.c">
+    <ClCompile Include="Point.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DLinkedList.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -42,6 +42,12 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="NameCard.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DLinkedList.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

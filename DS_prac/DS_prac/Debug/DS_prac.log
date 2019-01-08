@@ -1,6 +1,51 @@
 ﻿  ds_ch4.c
-c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(10): warning C4013: 'q4_1_1'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(66): warning C4129: 'd': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
-c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(66): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
-  c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(66): note: 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(11): warning C4013: 'q4_4_1'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(63): warning C4129: 'd': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(63): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+  c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(63): note: 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(115): warning C4129: 'd': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(115): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+  c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(115): note: 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(132): warning C4047: '함수': 'LData'의 간접 참조 수준이 'Point *'과(와) 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(132): warning C4024: 'LInsert': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(135): warning C4047: '함수': 'LData'의 간접 참조 수준이 'Point *'과(와) 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(135): warning C4024: 'LInsert': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(138): warning C4047: '함수': 'LData'의 간접 참조 수준이 'Point *'과(와) 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(138): warning C4024: 'LInsert': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(141): warning C4047: '함수': 'LData'의 간접 참조 수준이 'Point *'과(와) 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(141): warning C4024: 'LInsert': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(145): warning C4047: '함수': 'LData *'의 간접 참조 수준이 'Point **'과(와) 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(145): warning C4024: 'LFirst': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(147): warning C4047: '함수': 'LData *'의 간접 참조 수준이 'Point **'과(와) 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(147): warning C4024: 'LNext': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(154): warning C4047: '함수': 'LData *'의 간접 참조 수준이 'Point **'과(와) 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(154): warning C4024: 'LFirst': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(158): warning C4047: '함수': 'LData *'의 간접 참조 수준이 'Point **'과(와) 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(158): warning C4024: 'LNext': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(165): warning C4047: '함수': 'LData *'의 간접 참조 수준이 'Point **'과(와) 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(165): warning C4024: 'LFirst': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(167): warning C4047: '함수': 'LData *'의 간접 참조 수준이 'Point **'과(와) 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(167): warning C4024: 'LNext': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(195): warning C4028: 정식 매개 변수 1이(가) 선언과 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(195): warning C4028: 정식 매개 변수 2이(가) 선언과 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(199): warning C4047: '함수': 'LData'의 간접 참조 수준이 'Point *'과(와) 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(199): warning C4024: 'LInsert': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(202): warning C4047: '함수': 'LData'의 간접 참조 수준이 'Point *'과(와) 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(202): warning C4024: 'LInsert': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(205): warning C4047: '함수': 'LData'의 간접 참조 수준이 'Point *'과(와) 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(205): warning C4024: 'LInsert': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(208): warning C4047: '함수': 'LData'의 간접 참조 수준이 'Point *'과(와) 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(208): warning C4024: 'LInsert': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(212): warning C4047: '함수': 'LData *'의 간접 참조 수준이 'Point **'과(와) 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(212): warning C4024: 'LFirst': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(214): warning C4047: '함수': 'LData *'의 간접 참조 수준이 'Point **'과(와) 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(214): warning C4024: 'LNext': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(221): warning C4047: '함수': 'LData *'의 간접 참조 수준이 'Point **'과(와) 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(221): warning C4024: 'LFirst': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(225): warning C4047: '함수': 'LData *'의 간접 참조 수준이 'Point **'과(와) 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(225): warning C4024: 'LNext': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(232): warning C4047: '함수': 'LData *'의 간접 참조 수준이 'Point **'과(와) 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(232): warning C4024: 'LFirst': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(234): warning C4047: '함수': 'LData *'의 간접 참조 수준이 'Point **'과(와) 다릅니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch4.c(234): warning C4024: 'LNext': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
   DS_prac.vcxproj -> C:\Github\Data_structure\DS_prac\Debug\DS_prac.exe
