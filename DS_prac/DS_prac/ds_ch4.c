@@ -4,7 +4,7 @@
 #include "Point.h"
 
 
-int main(void) {
+int sub_c_4(void) {
 	//q4_1_1();
 	//q4_2_1();
 	//q4_3_1();

@@ -26,3 +26,12 @@ int Hanoi(int num, char from, char by, char to) {
 		Hanoi(num - 1, by, from, to);
 	}
 }
+int memo[100]; //메모이제이션 공간. 전역 변수이므로 0으로 초기화
+int dynamic(int n) {
+	if (n <= 1) //0번째, 1번째 피보나치 수
+		return n;
+	if (memo[n] != 0) //메모가 있는지 확인(0으로 초기화되었으므로 0이 아니라면 메모가 쓰인 것임)
+		return memo[n]; //메모 리턴
+	memo[n] = dynamic(n - 1) + dynamic(n - 2); //작은 문제로 분할
+	return memo[n];
+}
