@@ -38,10 +38,11 @@ void show(Member * mem) {
 int q5_1_1(void) {
 	List list;
 	int data, i, nodeNum;
+	ListInit1(&list);
 	Member * mem;
 	mem = (Member *)malloc(sizeof(Member));
 	mem->num = 111;
-	strcpy_s(mem->name, strlen("bbb") + 1, "aaa");
+	strcpy_s(mem->name, strlen("aaa")+1, "aaa");
 	LInsert1(&list, mem);
 	
 	mem = (Member *)malloc(sizeof(Member));
@@ -58,7 +59,7 @@ int q5_1_1(void) {
 	LInsert1(&list, mem);
 	
 
-	mem = who(&list, "aaa", 3);
+	mem = who(&list, "ccc", 2);
 	show(mem);
 
 
