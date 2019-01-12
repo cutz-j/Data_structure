@@ -1,9 +1,2 @@
-﻿  ds_ch5.c
-c:\github\data_structure\ds_prac\ds_prac\ds_ch5.c(8): warning C4013: 'q5_1_1'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-c:\github\data_structure\ds_prac\ds_prac\ds_ch5.c(14): warning C4013: 'LCount'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-c:\github\data_structure\ds_prac\ds_prac\ds_ch5.c(16): warning C4013: 'LFirst'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-c:\github\data_structure\ds_prac\ds_prac\ds_ch5.c(19): warning C4013: 'LNext'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-c:\github\data_structure\ds_prac\ds_prac\ds_ch5.c(40): warning C4101: 'nodeNum' :참조되지 않은 지역 변수입니다.
-c:\github\data_structure\ds_prac\ds_prac\ds_ch5.c(40): warning C4101: 'data' :참조되지 않은 지역 변수입니다.
-c:\github\data_structure\ds_prac\ds_prac\ds_ch5.c(40): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+﻿  DBLinkedList.c
   DS_prac.vcxproj -> C:\Github\Data_structure\DS_prac\Debug\DS_prac.exe

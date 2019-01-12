@@ -20,6 +20,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CLinkedList.c" />
+    <ClCompile Include="DBDLinkedList.c" />
+    <ClCompile Include="DBLinkedList.c" />
     <ClCompile Include="DLinkedList.c" />
     <ClCompile Include="ds_ch1.c" />
     <ClCompile Include="ds_ch2.c" />
@@ -32,6 +34,8 @@
   <ItemGroup>
     <ClInclude Include="ArrayList.h" />
     <ClInclude Include="CLinkedList.h" />
+    <ClInclude Include="DBDLinkedList.h" />
+    <ClInclude Include="DBLinkedList.h" />
     <ClInclude Include="DLinkedList.h" />
     <ClInclude Include="member.h" />
     <ClInclude Include="NameCard.h" />
