@@ -5,7 +5,7 @@
 //#include "member.h"
 #include "DBDLinkedList.h"
 
-int main(void) {
+int sub_5_ds(void) {
 	//q5_1_1();
 	q5_2_1();
 	return 0;

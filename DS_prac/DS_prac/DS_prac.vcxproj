@@ -19,7 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ArrayBaseStack.c" />
     <ClCompile Include="CLinkedList.c" />
+    <ClCompile Include="CLLBaseStack.c" />
     <ClCompile Include="DBDLinkedList.c" />
     <ClCompile Include="DBLinkedList.c" />
     <ClCompile Include="DLinkedList.c" />
@@ -28,15 +30,20 @@
     <ClCompile Include="ds_ch3.c" />
     <ClCompile Include="ds_ch4.c" />
     <ClCompile Include="ds_ch5.c" />
+    <ClCompile Include="ds_ch6.c" />
+    <ClCompile Include="ListBaseStack.c" />
     <ClCompile Include="NameCard.c" />
     <ClCompile Include="Point.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ArrayBaseStack.h" />
     <ClInclude Include="ArrayList.h" />
     <ClInclude Include="CLinkedList.h" />
+    <ClInclude Include="CLLBaseStack.h" />
     <ClInclude Include="DBDLinkedList.h" />
     <ClInclude Include="DBLinkedList.h" />
     <ClInclude Include="DLinkedList.h" />
+    <ClInclude Include="ListBaseStack.h" />
     <ClInclude Include="member.h" />
     <ClInclude Include="NameCard.h" />
     <ClInclude Include="Point.h" />
