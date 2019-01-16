@@ -43,6 +43,7 @@
     <ClInclude Include="DBDLinkedList.h" />
     <ClInclude Include="DBLinkedList.h" />
     <ClInclude Include="DLinkedList.h" />
+    <ClInclude Include="InFixToPostfix.h" />
     <ClInclude Include="ListBaseStack.h" />
     <ClInclude Include="member.h" />
     <ClInclude Include="NameCard.h" />
