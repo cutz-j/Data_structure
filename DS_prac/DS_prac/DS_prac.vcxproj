@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ArrayBaseStack.c" />
+    <ClCompile Include="CircularQueue.c" />
     <ClCompile Include="CLinkedList.c" />
     <ClCompile Include="CLLBaseStack.c" />
     <ClCompile Include="DBDLinkedList.c" />
@@ -31,6 +32,8 @@
     <ClCompile Include="ds_ch4.c" />
     <ClCompile Include="ds_ch5.c" />
     <ClCompile Include="ds_ch6.c" />
+    <ClCompile Include="ds_ch7.c" />
+    <ClCompile Include="ListBaseQueue.c" />
     <ClCompile Include="ListBaseStack.c" />
     <ClCompile Include="NameCard.c" />
     <ClCompile Include="Point.c" />
@@ -38,12 +41,14 @@
   <ItemGroup>
     <ClInclude Include="ArrayBaseStack.h" />
     <ClInclude Include="ArrayList.h" />
+    <ClInclude Include="CircularQueue.h" />
     <ClInclude Include="CLinkedList.h" />
     <ClInclude Include="CLLBaseStack.h" />
     <ClInclude Include="DBDLinkedList.h" />
     <ClInclude Include="DBLinkedList.h" />
     <ClInclude Include="DLinkedList.h" />
     <ClInclude Include="InFixToPostfix.h" />
+    <ClInclude Include="ListBaseQueue.h" />
     <ClInclude Include="ListBaseStack.h" />
     <ClInclude Include="member.h" />
     <ClInclude Include="NameCard.h" />

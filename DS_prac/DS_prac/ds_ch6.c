@@ -4,7 +4,7 @@
 #include "ListBaseStack.h"
 #include "InFixToPostfix.h"
 
-int main(void) {
+int ds_ch6_c(void) {
 	//q6_1_1();
 	q6_1_3();
 	

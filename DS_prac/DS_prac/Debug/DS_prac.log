@@ -1,6 +1,2 @@
-﻿  ds_ch6.c
-c:\github\data_structure\ds_prac\ds_prac\ds_ch6.c(9): warning C4013: 'q6_1_3'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-c:\github\data_structure\ds_prac\ds_prac\ds_ch6.c(52): warning C4013: 'strlen'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-c:\github\data_structure\ds_prac\ds_prac\ds_ch6.c(58): warning C4013: 'memset'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-c:\github\data_structure\ds_prac\ds_prac\ds_ch6.c(90): warning C4013: 'strcpy'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+﻿  ListBaseQueue.c
   DS_prac.vcxproj -> C:\Github\Data_structure\DS_prac\Debug\DS_prac.exe
