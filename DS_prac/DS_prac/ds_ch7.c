@@ -3,10 +3,14 @@
 #include <string.h>
 #include "CircularQueue.h"
 #include "ListBaseQueue.h"
+#include "Deque.h"
+#include "DequeBaseQueue.h"
 
 int main(void) {
 	//c_queue();
-	list_q();
+	//list_q();
+	//Dequetest();
+	q7_1_1();
 	return 0;
 }
 
@@ -39,3 +43,42 @@ int list_q(void) {
 	
 	return 0;
 }
+
+int Dequetest(void) {
+	Deque deq;
+	DequeInit(&deq);
+	DQAddFirst(&deq, 3);
+	DQAddFirst(&deq, 2);
+	DQAddFirst(&deq, 1);
+	DQAddLast(&deq, 4);
+	DQAddLast(&deq, 5);
+	DQAddLast(&deq, 6);
+	while (!DQIsEmpty(&deq))
+		printf("%d ", DQRemoveFirst(&deq));
+	
+
+	
+	return 0;
+}
+
+int q7_1_1(void) {
+	Queue_d q;
+	QueueInit_d(&q);
+	Enqueue_d(&q, 1);
+	Enqueue_d(&q, 2);
+	Enqueue_d(&q, 3);
+	Enqueue_d(&q, 4);
+	Enqueue_d(&q, 5);
+	Enqueue_d(&q, 6);
+	while (!QIsEmpty_d(&q))
+		printf("%d ", Dequeue_d(&q));
+
+	return 0;
+}
+
+
+
+
+
+
+

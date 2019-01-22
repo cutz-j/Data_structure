@@ -25,6 +25,8 @@
     <ClCompile Include="CLLBaseStack.c" />
     <ClCompile Include="DBDLinkedList.c" />
     <ClCompile Include="DBLinkedList.c" />
+    <ClCompile Include="Deque.c" />
+    <ClCompile Include="DequeBaseQueue.c" />
     <ClCompile Include="DLinkedList.c" />
     <ClCompile Include="ds_ch1.c" />
     <ClCompile Include="ds_ch2.c" />
@@ -46,6 +48,8 @@
     <ClInclude Include="CLLBaseStack.h" />
     <ClInclude Include="DBDLinkedList.h" />
     <ClInclude Include="DBLinkedList.h" />
+    <ClInclude Include="Deque.h" />
+    <ClInclude Include="DequeBaseQueue.h" />
     <ClInclude Include="DLinkedList.h" />
     <ClInclude Include="InFixToPostfix.h" />
     <ClInclude Include="ListBaseQueue.h" />
