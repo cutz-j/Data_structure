@@ -6,7 +6,7 @@
 #include "Deque.h"
 #include "DequeBaseQueue.h"
 
-int main(void) {
+int ds_ch7_c(void) {
 	//c_queue();
 	//list_q();
 	//Dequetest();

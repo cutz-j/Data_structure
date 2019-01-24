@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ArrayBaseStack.c" />
+    <ClCompile Include="BinaryTree.c" />
     <ClCompile Include="CircularQueue.c" />
     <ClCompile Include="CLinkedList.c" />
     <ClCompile Include="CLLBaseStack.c" />
@@ -35,6 +36,7 @@
     <ClCompile Include="ds_ch5.c" />
     <ClCompile Include="ds_ch6.c" />
     <ClCompile Include="ds_ch7.c" />
+    <ClCompile Include="ds_ch8.c" />
     <ClCompile Include="ListBaseQueue.c" />
     <ClCompile Include="ListBaseStack.c" />
     <ClCompile Include="NameCard.c" />
@@ -43,6 +45,7 @@
   <ItemGroup>
     <ClInclude Include="ArrayBaseStack.h" />
     <ClInclude Include="ArrayList.h" />
+    <ClInclude Include="BinaryTree.h" />
     <ClInclude Include="CircularQueue.h" />
     <ClInclude Include="CLinkedList.h" />
     <ClInclude Include="CLLBaseStack.h" />

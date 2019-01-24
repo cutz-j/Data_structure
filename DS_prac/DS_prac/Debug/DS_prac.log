@@ -1,7 +1,4 @@
-﻿  DequeBaseQueue.c
-c:\github\data_structure\ds_prac\ds_prac\dequebasequeue.c(6): warning C4098: 'QueueInit_d': 'void' 함수에서 값을 반환하고 있습니다.
-c:\github\data_structure\ds_prac\ds_prac\dequebasequeue.c(14): warning C4098: 'Enqueue_d': 'void' 함수에서 값을 반환하고 있습니다.
-  ds_ch7.c
-c:\github\data_structure\ds_prac\ds_prac\ds_ch7.c(13): warning C4013: 'q7_1_1'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-  코드를 생성하고 있습니다...
+﻿  ds_ch8.c
+c:\github\data_structure\ds_prac\ds_prac\ds_ch8.c(6): warning C4013: 'BTmain'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+c:\github\data_structure\ds_prac\ds_prac\ds_ch8.c(30): warning C4013: 'MakeRightSubTree'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
   DS_prac.vcxproj -> C:\Github\Data_structure\DS_prac\Debug\DS_prac.exe
