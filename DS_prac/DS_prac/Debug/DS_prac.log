@@ -1,4 +1,4 @@
-﻿  ds_ch8.c
-c:\github\data_structure\ds_prac\ds_prac\ds_ch8.c(6): warning C4013: 'BTmain'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-c:\github\data_structure\ds_prac\ds_prac\ds_ch8.c(30): warning C4013: 'MakeRightSubTree'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+﻿  ExpressionTree.c
+c:\github\data_structure\ds_prac\ds_prac\expressiontree.c(16): warning C4013: 'isdigit'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+c:\github\data_structure\ds_prac\ds_prac\expressiontree.c(20): warning C4013: 'MakeRightSubTree'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
   DS_prac.vcxproj -> C:\Github\Data_structure\DS_prac\Debug\DS_prac.exe

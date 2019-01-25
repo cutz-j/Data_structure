@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "BinaryTree.h"
+#include "ExpressionTree.h"
 
 int main(void) {
-	BTmain();
+	//BTmain();
+	expMain();
 	return 0;
 }
 
@@ -38,7 +40,19 @@ int BTmain(void) {
 	return 0;
 }
 
+int expMain(void) {
+	
+	char exp[] = "327*+";
+	BTreeNode * eTree = MakeExpTree(exp);
 
+	ShowPrefixTypeExp(eTree); printf("\n");
+	ShowInfixTypeExp(eTree); printf("\n");
+	ShowPostfixTypeExp(eTree); printf("\n");
+	printf("%d ", EvaluateExpTree(eTree));
+
+
+	return 0;
+}
 
 
 

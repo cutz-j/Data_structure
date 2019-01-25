@@ -81,6 +81,9 @@
     <ClCompile Include="ds_ch8.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="ExpressionTree.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayList.h">
@@ -132,6 +135,9 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="BinaryTree.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpressionTree.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
