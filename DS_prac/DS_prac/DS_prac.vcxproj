@@ -42,6 +42,7 @@
     <ClCompile Include="ListBaseStack.c" />
     <ClCompile Include="NameCard.c" />
     <ClCompile Include="Point.c" />
+    <ClCompile Include="SimpleHeap.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayBaseStack.h" />
@@ -62,6 +63,7 @@
     <ClInclude Include="member.h" />
     <ClInclude Include="NameCard.h" />
     <ClInclude Include="Point.h" />
+    <ClInclude Include="SimpleHeap.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
