@@ -1,8 +1,8 @@
 #ifndef __SIMPLE_HEAP_H__
 #define __SIMPLE_HEAP_H__
 
-#define TRUE 0
-#define FALSE 1
+#define TRUE 1
+#define FALSE 0
 #define HEAP_LEN 100
 
 typedef char HData;

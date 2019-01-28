@@ -53,6 +53,22 @@ void HInsert(Heap * ph, HData data, Priority pr) {
 	ph->numofData += 1;
 }
 
+HData HDelete(Heap * ph) {
+	HData retData = (ph->heapArr[1]).data;
+	HeapElem lastElem = ph->heapArr[ph->numofData];
+	int parentIdx = 1;
+	int childIdx;
+	while (childIdx = GetHiPriChildIDX(ph, parentIdx)){
+		if (lastElem.pr <= ph->heapArr[childIdx].pr)
+			break;
+		ph->heapArr[parentIdx] = ph->heapArr[childIdx];
+		parentIdx = childIdx;
+	}
+	ph->heapArr[parentIdx] = lastElem;
+	ph->numofData -= 1;
+	return retData;
+}
+
 
 
 

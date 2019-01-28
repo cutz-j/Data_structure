@@ -3,7 +3,7 @@
 #include "BinaryTree.h"
 #include "ExpressionTree.h"
 
-int main(void) {
+int ds_ch8_c(void) {
 	//BTmain();
 	expMain();
 	return 0;

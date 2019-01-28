@@ -37,12 +37,15 @@
     <ClCompile Include="ds_ch6.c" />
     <ClCompile Include="ds_ch7.c" />
     <ClCompile Include="ds_ch8.c" />
+    <ClCompile Include="ds_ch9.c" />
     <ClCompile Include="ExpressionTree.c" />
     <ClCompile Include="ListBaseQueue.c" />
     <ClCompile Include="ListBaseStack.c" />
     <ClCompile Include="NameCard.c" />
     <ClCompile Include="Point.c" />
+    <ClCompile Include="PriorityQueue.c" />
     <ClCompile Include="SimpleHeap.c" />
+    <ClCompile Include="UsefulHeap.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayBaseStack.h" />
@@ -63,7 +66,9 @@
     <ClInclude Include="member.h" />
     <ClInclude Include="NameCard.h" />
     <ClInclude Include="Point.h" />
+    <ClInclude Include="PriorityQueue.h" />
     <ClInclude Include="SimpleHeap.h" />
+    <ClInclude Include="UsefulHeap.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
