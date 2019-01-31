@@ -5,7 +5,7 @@
 //#include "UsefulHeap.h"
 #include "PriorityQueue.h"
 
-int main(void) {
+int ds_ch9_c(void) {
 	//simple();
 	//useful();
 	q9_1_1();
