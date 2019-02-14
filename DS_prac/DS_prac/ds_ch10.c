@@ -1,12 +1,14 @@
 #include <stdio.h>
 #include "UsefulHeap.h"
+#include "QuickSort.h"
 
 int main(void) {
 	//bubble_test();
 	////selection_test();
 	//insertion_test();
 	//heap_test();
-	merge_test();
+	//merge_test();
+	quick_test();
 	return 0;
 }
 
@@ -183,6 +185,17 @@ int merge_test(void) {
 	MergeSort(arr, 0, sizeof(arr) / sizeof(int) - 1);
 	for (i = 0; i < 7; i++)
 		printf("%d ", arr[i]);
+	printf("\n");
+	return 0;
+}
+
+int quick_test(void) {
+	int arr[15] = { 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 };
+	int len = sizeof(arr) / sizeof(int);
+	QuickSort(arr, 0, sizeof(arr)/sizeof(int)-1);
+	for (int i = 0; i < len; i++) {
+		printf("%d ", arr[i]);
+	}
 	printf("\n");
 	return 0;
 }
