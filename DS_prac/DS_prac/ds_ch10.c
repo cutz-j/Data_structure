@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "UsefulHeap.h"
 #include "QuickSort.h"
+#include "RadixSort.h"
 
 int main(void) {
 	//bubble_test();
@@ -8,7 +9,8 @@ int main(void) {
 	//insertion_test();
 	//heap_test();
 	//merge_test();
-	quick_test();
+	//quick_test();
+	radix_test();
 	return 0;
 }
 
@@ -197,5 +199,17 @@ int quick_test(void) {
 		printf("%d ", arr[i]);
 	}
 	printf("\n");
+	return 0;
+}
+
+int radix_test(void) {
+	int arr[7] = { 13, 212, 14, 7141, 10987, 6, 15 };
+	int len = sizeof(arr) / sizeof(int);
+	int i;
+	RadixSort(arr, len, 5);
+	for (i = 0; i < len; i++)
+		printf("%d ", arr[i]);
+	printf("\n");
+
 	return 0;
 }

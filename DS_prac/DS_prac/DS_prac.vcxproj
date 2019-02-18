@@ -46,6 +46,7 @@
     <ClCompile Include="Point.c" />
     <ClCompile Include="PriorityQueue.c" />
     <ClCompile Include="QuickSort.c" />
+    <ClCompile Include="RadixSort.c" />
     <ClCompile Include="SimpleHeap.c" />
     <ClCompile Include="UsefulHeap.c" />
   </ItemGroup>
@@ -70,6 +71,7 @@
     <ClInclude Include="Point.h" />
     <ClInclude Include="PriorityQueue.h" />
     <ClInclude Include="QuickSort.h" />
+    <ClInclude Include="RadixSort.h" />
     <ClInclude Include="SimpleHeap.h" />
     <ClInclude Include="UsefulHeap.h" />
   </ItemGroup>
