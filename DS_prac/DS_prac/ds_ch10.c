@@ -3,14 +3,15 @@
 #include "QuickSort.h"
 #include "RadixSort.h"
 
-int main(void) {
+int ds_ch10_c(void) {
 	//bubble_test();
 	////selection_test();
 	//insertion_test();
 	//heap_test();
 	//merge_test();
 	//quick_test();
-	radix_test();
+	//radix_test();
+	inter_test();
 	return 0;
 }
 
@@ -143,6 +144,23 @@ void MergeSort(int arr[], int left, int right) {
 }
 
 
+int ISearch(int arr[], int first, int last, int target) {
+	int i, j;
+	int half = ((double)(target - arr[first]) / (arr[last] - arr[first]) * (last - first) + first);
+	if (arr[half] == target)
+		return half;
+	else if (arr[half] > target)
+		if (half - 1 - first <= 1)
+			return half;
+		else
+			return ISearch(arr, first, half, target);
+	else if (arr[half] < target)
+		if (last - half + 1 <= 1)
+			return half;
+	return ISearch(arr, half + 1, last, target);
+}
+
+
 int bubble_test(void) {
 	int arr[4] = { 5,2,1,4 };
 	int i;
@@ -211,5 +229,17 @@ int radix_test(void) {
 		printf("%d ", arr[i]);
 	printf("\n");
 
+	return 0;
+}
+
+int inter_test(void) {
+	int arr[5] = { 1,3,5,7,9 };
+	int idx;
+
+	idx = ISearch(arr, 0, sizeof(arr) / sizeof(int) - 1, 7);
+	if (idx == -1)
+		return;
+	else
+		printf("dix : %d\n", idx);
 	return 0;
 }

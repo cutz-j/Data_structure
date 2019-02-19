@@ -105,6 +105,9 @@
     <ClCompile Include="RadixSort.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="ds_ch11.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayList.h">

@@ -31,6 +31,7 @@
     <ClCompile Include="DLinkedList.c" />
     <ClCompile Include="ds_ch1.c" />
     <ClCompile Include="ds_ch10.c" />
+    <ClCompile Include="ds_ch11.c" />
     <ClCompile Include="ds_ch2.c" />
     <ClCompile Include="ds_ch3.c" />
     <ClCompile Include="ds_ch4.c" />
