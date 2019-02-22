@@ -108,6 +108,9 @@
     <ClCompile Include="ds_ch11.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="BinarySearchTree.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayList.h">
@@ -177,6 +180,9 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="RadixSort.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BinarySerachTree.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
