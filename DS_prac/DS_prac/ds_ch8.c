@@ -5,7 +5,7 @@
 
 int ds_ch8_c(void) {
 	//BTmain();
-	expMain();
+	//expMain();
 	return 0;
 }
 
@@ -34,7 +34,7 @@ int BTmain(void) {
 	MakeRightSubTree(bt2, bt5);
 	MakeRightSubTree(bt3, bt6);
 
-	DeleteTree(bt1);
+	//DeleteTree(bt1);
 	//InorderTraverse(bt1, ShowIntData);
 
 	return 0;

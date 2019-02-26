@@ -1,6 +1,8 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "BinarySerachTree.h"
 #include "BinaryTree.h"
+#include "AVL.h"
 
 void BSTMakeAndInit(BTreeNode ** pRoot) {
 	*pRoot = NULL;
@@ -10,33 +12,28 @@ BSTData BSTGetNodeData(BTreeNode * bst) {
 	return GetData(bst);
 }
 
-
-void BSTInsert(BTreeNode ** pRoot, BSTData data) {
-	BTreeNode * pNode = NULL;
-	BTreeNode * cNode = *pRoot;
-	BTreeNode * nNode = NULL;
-
-	while (cNode != NULL) {
-		if (data == GetData(cNode))
-			return;
-		pNode = cNode;
-		if (GetData(cNode) > data)
-			cNode = GetLeftSubTree(cNode);
-		else
-			cNode = GetRightSubTree(cNode);
+BTreeNode * BSTInsert(BTreeNode ** pRoot, BSTData data)
+{
+	if (*pRoot == NULL)
+	{
+		*pRoot = MakeBTreeNode();
+		SetData(*pRoot, data);
 	}
-
-	nNode = MakeBTreeNode();
-	SetData(nNode, data);
-
-	if (pNode != NULL)
-		if (data < getData(pNode))
-			MakeLeftSubTree(pNode, nNode);
-		else
-			MakeRightSubTree(pNode, nNode);
-	else {
-		*pRoot = nNode;
+	else if (data < GetData(*pRoot))
+	{
+		BSTInsert(&((*pRoot)->left), data);
+		*pRoot = Rebalance(pRoot);
 	}
+	else if (data > GetData(*pRoot))
+	{
+		BSTInsert(&((*pRoot)->right), data);
+		*pRoot = Rebalance(pRoot);
+	}
+	else
+	{
+		return NULL; // 키의 중복을 허용하지 않는다.
+	}
+	return *pRoot;
 }
 
 BTreeNode * BSTSearch(BTreeNode * bst, BSTData target) {
@@ -122,10 +119,14 @@ BTreeNode * BSTRemove(BTreeNode ** pRoot, BSTData target) {
 		*pRoot = GetRightSubTree(pVRoot);
 
 	free(pVRoot);
+	*pRoot = Rebalance(pRoot);
 	return dNode;
 }
 
-
+//void BSTShowAll(BTreeNode * bst)
+//{
+//	InorderTraverse(bst, ShowIntData);
+//}
 
 
 
