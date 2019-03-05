@@ -2,7 +2,7 @@
 #include "BinaryTree.h"	// 트리의 구조를 확인하기 위해서
 #include "BinarySerachTree.h"
 
-int main(void)
+int ds_ch12(void)
 {
 	BTreeNode * avlRoot;
 	BTreeNode * clNode;		// current left node

@@ -35,6 +35,7 @@
     <ClCompile Include="ds_ch10.c" />
     <ClCompile Include="ds_ch11.c" />
     <ClCompile Include="ds_ch12.c" />
+    <ClCompile Include="ds_ch14.c" />
     <ClCompile Include="ds_ch2.c" />
     <ClCompile Include="ds_ch3.c" />
     <ClCompile Include="ds_ch4.c" />
@@ -44,6 +45,8 @@
     <ClCompile Include="ds_ch8.c" />
     <ClCompile Include="ds_ch9.c" />
     <ClCompile Include="ExpressionTree.c" />
+    <ClCompile Include="Graph.c" />
+    <ClCompile Include="GraphDFS.c" />
     <ClCompile Include="ListBaseQueue.c" />
     <ClCompile Include="ListBaseStack.c" />
     <ClCompile Include="NameCard.c" />
@@ -69,6 +72,8 @@
     <ClInclude Include="DequeBaseQueue.h" />
     <ClInclude Include="DLinkedList.h" />
     <ClInclude Include="ExpressionTree.h" />
+    <ClInclude Include="Graph.h" />
+    <ClInclude Include="GraphDFS.h" />
     <ClInclude Include="InFixToPostfix.h" />
     <ClInclude Include="ListBaseQueue.h" />
     <ClInclude Include="ListBaseStack.h" />
